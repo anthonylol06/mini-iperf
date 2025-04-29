@@ -6,13 +6,13 @@ A simple throughput measurement tool
 ```sh
 make all
 ```
-2. Run Server
+2. Run Server (Example)
 ```sh
 ./miniIPerf -s -p 8080
 ```
 where `-p` is an integer within [1024, 65535]
 
-3. Run Client
+3. Run Client (Example)
 ```sh
 ./miniIPerf -c -h 127.0.0.1 -p 8080 -t 20
 ```
